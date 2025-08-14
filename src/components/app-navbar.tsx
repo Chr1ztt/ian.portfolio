@@ -1,5 +1,4 @@
 "use client";
-import { Button } from "@heroui/button";
 import {
   Dropdown,
   DropdownItem,
@@ -16,9 +15,8 @@ import {
   NavbarMenuItem,
   NavbarMenuToggle,
 } from "@heroui/navbar";
-import { ChevronDown, ChevronRight, MoveUpRight } from "lucide-react";
+import { ChevronRight, LucideIcon,  } from "lucide-react";
 import { useState } from "react";
-import ThemeToggle from "./theme-toggle";
 import Logo from "./logo";
 
 export default function AppNavbar() {
@@ -27,7 +25,18 @@ export default function AppNavbar() {
     Record<number, boolean>
   >({});
 
-  const menuItems = [
+  interface MenuItemSingle{
+    title: string
+    url: string
+  }
+  interface MenuItemMulti{
+    title: string;
+    url: string
+    icon?: LucideIcon,
+    items?: MenuItemSingle[]
+  }
+  
+  const menuItems: MenuItemMulti[] = [
     {
       title: "My Portfolio",
       url: "/",

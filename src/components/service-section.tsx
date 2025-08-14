@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
-import { CodeXml, Cloudy, TabletSmartphone, ChartPie } from "lucide-react";
+import { CodeXml, Cloudy} from "lucide-react";
 import { Card, CardBody } from "@heroui/card";
 import Image from "next/image";
-import ai from "@/assets/1.svg";
 import serviceImg from "@/assets/service_bg.jpg";
 import { Link } from "@heroui/link";
 import { useScroll, useTransform } from "framer-motion";

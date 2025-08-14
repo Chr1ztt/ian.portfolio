@@ -11,7 +11,7 @@ export default function CtaSection() {
           Let’s Build Something Great Together.
         </h1>
         <p className='text-md md:text-xl'>
-          I'd like to hear from you. Here’s how you can reach me.
+          I&apos;d like to hear from you. Here&apos;s how you can reach me.
         </p>
       </div>
       <Button
@@ -21,7 +21,7 @@ export default function CtaSection() {
         radius='sm'
         endContent={<MoveUpRight size={18} />}
       >
-        Let's talk
+        Let&apos;s talk
       </Button>
     </div>
   );

@@ -2,7 +2,6 @@
 
 
 import CtaSection from "@/components/cta-section";
-import ProjectSection from "@/components/project-section";
 import ServiceSection from "@/components/service-section";
 import MainTitle from "@/features/profile/title";
 import React from "react";
