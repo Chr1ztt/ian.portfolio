@@ -76,6 +76,7 @@ export default function AppNavbar() {
   ];
 
   const toggleMobileSubmenu = (index: number) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     setExpandedMobileMenus((prev: any) => ({
       ...prev,
       [index]: !prev[index],

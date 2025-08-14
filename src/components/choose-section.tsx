@@ -19,7 +19,7 @@ export default function ChooseSection() {
             <p className='text-primary'>
               We don’t offer one-size-fits-all apps. Every solution is
               custom-built to align with your business goals, workflows, and
-              users' needs.
+              users&apos; needs.
             </p>
           </div>
         </CardBody>
