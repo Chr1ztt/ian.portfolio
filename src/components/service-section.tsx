@@ -58,9 +58,9 @@ export default function ServiceSection() {
             style={{ x: titleX }}
             className="flex flex-col self-start w-screen overflow-hidden  justify-center  items-center gap-6 text-primary-foreground"
           >
-            <p className="text-center text-lg md:text-4xl  ">Projects</p>
+            <p className="text-center text-lg md:text-4xl  ">Showcase</p>
             <h1 className="text-center text-2xl md:text-4xl font-cal-sans">
-              Choose Your Solution — We’ll Bring It to Life.
+              Projects I Have Participated in
             </h1>
           </motion.div>
           {/* </div> */}

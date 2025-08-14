@@ -34,8 +34,8 @@ export default function AppFooter() {
         <div className=' p-4'>
           <h3 className='font-semibold mb-2'>Projects</h3>
           <ul className='mb-4'>
-            <li className='mb-1'>e-payload</li>
-            <li>edupedia</li>
+            <li className='mb-1'>Edupedia</li>
+            <li>Informasi S1 TI</li>
           </ul>
         </div>
 

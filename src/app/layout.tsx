@@ -17,11 +17,11 @@ const calSans = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Trials.ID - Smart & Scalable IT Solutions",
-    template: "%s - Trials.ID",
+    default: "My Portfolio - Christian Adi Ananta",
+    template: "%s - My Portfolio",
   },
   description:
-    "Discover tailored IT solutions crafted by experts — from custom web & mobile apps to AI-powered systems. Based in Salatiga, serving clients across Indonesia. Let's build your digital future together.",
+    "Web & Mobile Developer",
   keywords: [
     "IT solutions Indonesia",
     "custom software development",

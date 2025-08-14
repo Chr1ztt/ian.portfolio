@@ -87,7 +87,7 @@ const MainTitle = React.forwardRef<
           Christian Adi ananta
         </h1>
         <p className="text-md md:text-lg lg:text-4xl">
-          Web Developer
+          Web & Mobile Developer
         </p>
       </motion.div>
       {/* todo: extract button to server component */}
